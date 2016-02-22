@@ -1,0 +1,340 @@
+
+/* html5 reset css file */
+@import url('html5reset.css');
+
+/* standard css for desktop browsers */
+body {
+	background-image:url('background3.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: helvetica, sans-serif;
+	margin: 50px;
+	margin-top: 600px;
+	margin-bottom: 1000px;
+}
+
+
+a:link {
+    text-decoration: none;
+		background-color: black;
+		color: white ;
+}
+
+a:visited {
+    text-decoration: none;
+		background-color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+		color: black;
+		background-color: inherit;;
+}
+
+a:active {
+    text-decoration: none;
+		background-color: grey;
+}
+
+h1 {
+	position: fixed;
+	width: 100%;
+	font-size: 40px;
+	color: white;
+	margin: 20px;
+	top: 100px;
+	left: 935px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h2 {
+	font-size: 15px;
+	text-shadow: 2px 2px 8px black;
+}
+
+
+
+.preamble {
+	width: 400px;
+	margin: 20px;
+}
+
+.summary {
+	width: 400px;
+	margin: 20px;
+}
+
+header h2 {
+	margin: 20px;
+}
+
+.preamble p{
+	font-style: italic;
+	font-family: serif;
+}
+
+.summary p{
+	font-style: italic;
+	font-family: serif;
+}
+
+
+
+.summary : first-child {
+	margin-top: 20px;
+}
+
+.summary : last-child {
+	margin-bottom: 20px;
+}
+
+.preamble h3{
+	font-size: 15px;
+	text-shadow: 2px 2px 8px black;
+	margin-top: 20px;
+}
+
+.preamble : nth-child(2){
+	margin-top: 20px;
+}
+
+.explanation h3{
+	font-size: 15px;
+	text-shadow: 2px 2px 8px black;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.participation h3{
+	font-size: 15px;
+	text-shadow: 2px 2px 8px black;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.benefits h3{
+	font-size: 15px;
+	text-shadow: 2px 2px 8px black;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.requirements h3{
+	font-size: 15px;
+	text-shadow: 2px 2px 8px black;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+
+.explanation>p{
+	font-family: serif;
+	font-style: italic;
+}
+
+.participation>p{
+	font-family: serif;
+	font-style: italic;
+}
+
+.benefits>p{
+	font-family: serif;
+	font-style: italic;
+}
+
+.requirements>p{
+	font-family: serif;
+	font-style: italic;
+}
+
+/*.main supporting {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: stretch;
+
+}
+*/
+
+
+/*.intro {
+	width: 30%;
+	margin: 20px;
+	border: 1px solid black;
+}*/
+
+.explanation {
+	margin: 20px;
+	margin-top: 200px;
+	background-image: url(backgroundblock11.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 320px;
+	height: 400px;
+	padding: 50px;
+	display: block;
+	display: inline-table;
+}
+
+.participation {
+	margin: 20px;
+	background-image: url(backgroundblock10.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 320px;
+	height: 400px;
+	padding: 50px;
+	display: block;
+	display: inline-table;
+}
+
+.benefits {
+	margin: 20px;
+	background-image: url(backgroundblock12.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 320px;
+	height: 400px;
+	padding: 50px;
+	display: block;
+	display: inline-table;
+}
+
+.requirements {
+	margin: 20px;
+	background-image: url(backgroundblock13.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 320px;
+	height: 400px;
+	padding: 50px;
+	display: block;
+	display: inline-table;
+}
+
+
+footer {
+	margin: 20px;
+	margin-left: 200px;
+	position: static;
+	margin-top: 200px;
+	text-shadow: 2px 2px 8px black;
+
+}
+
+
+footer a:link {
+    text-decoration: none;
+		font-family: serif;
+		background-color: grey;
+		color: white ;
+		background-color: inherit;
+}
+
+footer a:visited {
+    text-decoration: none;
+		background-color: black;
+		font-family: serif;
+		background-color: inherit;
+}
+
+footer a:hover {
+    text-decoration: none;
+		color: white;
+		background-color: inherit;
+		font-family: serif;
+		font-style: italic;
+		background-color: inherit;
+}
+
+footer a:active {
+    text-decoration: none;
+		background-color: grey;
+		font-family: serif;
+		background-color: inherit;
+}
+
+
+aside {
+	margin: 20px;
+	margin-left: 200px;
+}
+
+aside h3 {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-style: italic;
+}
+
+aside a:link {
+    text-decoration: none;
+		background-color: grey;
+		color: white ;
+}
+
+aside a:visited {
+    text-decoration: none;
+		background-color: black;
+}
+
+aside a:hover {
+    text-decoration: none;
+		color: white;
+		background-color: inherit;;
+}
+
+aside a:active {
+    text-decoration: none;
+		background-color: grey;
+}
+
+
+.design-selection {
+	margin: 4px;
+	background-image: url(backgroundlinks.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 20px;
+	display: block;
+	display: inline-table;
+}
+
+.design-archives {
+	margin: 4px;
+	background-image: url(backgroundlinks.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 20px;
+	display: block;
+	display: inline-table;
+}
+
+.zen-resources {
+	margin: 4px;
+	background-image: url(backgroundlinks.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 20px;
+	display: block;
+	display: inline-table;
+}
+
+
+
+/* override css for mobile browsers */
+@media all and (min-width:320px) and (max-width:400px) {
+	body {
+		font-size:1em;
+		background-color:orange;
+	}
+}
