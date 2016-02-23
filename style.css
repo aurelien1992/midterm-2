@@ -1,6 +1,9 @@
 
 /* html5 reset css file */
 @import url('html5reset.css');
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Asar);
 
 /* standard css for desktop browsers */
 body {
@@ -8,12 +11,24 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	font-family: helvetica, sans-serif;
+	font-family: 'Arimo', sans-serif;
 	margin: 50px;
-	margin-top: 600px;
+	margin-top: 700px;
 	margin-bottom: 1000px;
 }
 
+/* .extra1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 90%;
+	margin: 50px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 85%;
+}*/
 
 a:link {
     text-decoration: none;
@@ -39,12 +54,13 @@ a:active {
 
 h1 {
 	position: fixed;
-	width: 100%;
+	width: 400px;
+	text-align: right;
 	font-size: 40px;
 	color: white;
 	margin: 20px;
 	top: 100px;
-	left: 935px;
+	right: 0px;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -58,6 +74,10 @@ h2 {
 .preamble {
 	width: 400px;
 	margin: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
 }
 
 .summary {
@@ -67,25 +87,28 @@ h2 {
 
 header h2 {
 	margin: 20px;
+	padding-top: 20px;
+	border-top: 1px solid grey;
+	width: 400px;
 }
 
 .preamble p{
 	font-style: italic;
-	font-family: serif;
+	font-family: 'Crimson Text', serif;
 }
 
 .summary p{
 	font-style: italic;
-	font-family: serif;
+	font-family: 'Crimson Text', serif;
 }
 
 
 
-.summary : first-child {
+.summary p:first-child {
 	margin-top: 20px;
 }
 
-.summary : last-child {
+.summary p:last-child {
 	margin-bottom: 20px;
 }
 
@@ -95,7 +118,7 @@ header h2 {
 	margin-top: 20px;
 }
 
-.preamble : nth-child(2){
+.preamble p:nth-child(2){
 	margin-top: 20px;
 }
 
@@ -129,22 +152,22 @@ header h2 {
 
 
 .explanation>p{
-	font-family: serif;
+	font-family: 'Crimson Text', serif;
 	font-style: italic;
 }
 
 .participation>p{
-	font-family: serif;
+	font-family: 'Crimson Text', serif;
 	font-style: italic;
 }
 
 .benefits>p{
-	font-family: serif;
+	font-family: 'Crimson Text', serif;
 	font-style: italic;
 }
 
 .requirements>p{
-	font-family: serif;
+	font-family: 'Crimson Text', serif;
 	font-style: italic;
 }
 
@@ -222,9 +245,9 @@ header h2 {
 
 footer {
 	margin: 20px;
-	margin-left: 200px;
-	position: static;
-	margin-top: 200px;
+	position: fixed;
+	top: 150px;
+	right: 0;
 	text-shadow: 2px 2px 8px black;
 
 }
@@ -232,7 +255,7 @@ footer {
 
 footer a:link {
     text-decoration: none;
-		font-family: serif;
+		font-family: 'Crimson Text', serif;
 		background-color: grey;
 		color: white ;
 		background-color: inherit;
@@ -241,7 +264,7 @@ footer a:link {
 footer a:visited {
     text-decoration: none;
 		background-color: black;
-		font-family: serif;
+		font-family: 'Crimson Text', serif;
 		background-color: inherit;
 }
 
@@ -249,7 +272,7 @@ footer a:hover {
     text-decoration: none;
 		color: white;
 		background-color: inherit;
-		font-family: serif;
+		font-family: 'Crimson Text', serif;
 		font-style: italic;
 		background-color: inherit;
 }
@@ -257,20 +280,22 @@ footer a:hover {
 footer a:active {
     text-decoration: none;
 		background-color: grey;
-		font-family: serif;
+		font-family: 'Crimson Text', serif;
 		background-color: inherit;
 }
 
 
 aside {
 	margin: 20px;
-	margin-left: 200px;
+	font-size: 10px;
+	margin-top: 150px;
 }
 
 aside h3 {
-	color: white;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: black;
+	text-shadow: 2px 2px 8px white;
 	font-style: italic;
+	font-size: 12px;
 }
 
 aside a:link {
@@ -298,6 +323,7 @@ aside a:active {
 
 .design-selection {
 	margin: 4px;
+	margin-right: 16px;
 	background-image: url(backgroundlinks.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -305,10 +331,11 @@ aside a:active {
 	padding: 20px;
 	display: block;
 	display: inline-table;
+	box-shadow: 0px 0px 20px 10px grey;
 }
 
 .design-archives {
-	margin: 4px;
+	margin: 20px;
 	background-image: url(backgroundlinks.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -316,10 +343,11 @@ aside a:active {
 	padding: 20px;
 	display: block;
 	display: inline-table;
+	box-shadow: 0px 0px 20px 10px grey;
 }
 
 .zen-resources {
-	margin: 4px;
+	margin: 20px;
 	background-image: url(backgroundlinks.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -327,6 +355,7 @@ aside a:active {
 	padding: 20px;
 	display: block;
 	display: inline-table;
+	box-shadow: 0px 0px 20px 10px grey;
 }
 
 
